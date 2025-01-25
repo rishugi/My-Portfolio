@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=.navbar, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+       <!-- navbar box for left-right marging -->
+    <div class="marging_box"> 
+      <!-- Navbar cood -->
+ <div class="navBar">
+  <!-- logo cods -->
+    <div id="logo"><p>Mr.Rishu</p></div> 
+    <!-- Navbar Option Code -->
+    <div id="option">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#project_gallery">Project-Gallery</a></li>
+            <li><a href="#footer">Contact Us</a></li>
+        </ul>
+    </div>
+    <!-- Join Button Code -->
+   <div id="join" ><button id="joinbtn" onclick="click" >
+        Join Now >
+   </button></div>
+  </div>
+
+  <!-- code for joinNow Box Form  -->
+  <div id="joinNow">
+    <form id="form" onsubmit=" return formSubmit()" action="#msgSuccess" >
+      <ul>
+        <p id="joinHeading">Join Me ! </p>
+        <li><p> Name:</p><input type="text" id="yname"></li>
+        <li><p>Email Id.:</p>  <input id="email1" type="email"></li>
+        <li><p>Mobile No.:</p><input id="numb1" type="number"></li>
+        <li><p>Place:</p><input id="place1" type="text" placeholder="Inter Your City" ></li>
+        <li><button type="submit" id="submit">Join Now</Button></li>
+      </ul>
+    </form>
+    </div>
+    <!-- Success Box after join Successfully -->
+    <div id="msgSuccess">
+         <h1>Join Successfull! </h1>
+         <h2>Thankyou for Your Joining!</h2>
+         <h3 id="nameMsg"></h3>
+         <h4>Please Go Back Home....</h4>
+      </form>
+      </div>
+    
+  <!-- Main Box (Home Page)For Welcome And My Photo Code -->
+  <div id="home_box" >
+    <div id="wel_kit">
+      <h2 id="portfolio">Port <samp style="color: #e0177c;">folio</samp></h2>
+        <p id="hi">Hi And</p>
+        <h1 id="wel">Welcome Friend !</h1>
+        <h3>Thank You For Visit You My Profile.</h3>
+        <h2>My Self <samp style="color: #e61616;">Rishu Gupta</samp></h2>
+        <h2>I'am <samp style="color: #330aa5;"> Web Developer</samp></h2>
+    </div>
+      <div id="photo"></div>
+  </div>
+  <!-- Code For Project Gallery Box -->
+  <div id="project_gallery" >
+    <h1 id="heading">Project Gallery -</h1>
+    <div class="cart">
+        <a id="cart1" href="amazoneClone.png"></a>
+        <a  id="cart2"href="LogineDisplay.png"></a>
+        <a id="cart3" href="cricketGame.png"></a>
+        <a id="cart4" href="calulator.png"></a>
+    </div>
+  </div>
+   <!-- Code For About Box -->
+  <div id="about">
+    <h1 id="heading">About -</h1>
+    <div id="aboutme">
+        <p>Hi there! I'm a passionate Frontend Developer with a keen eye for detail and 
+          a love for creating seamless and engaging user experiences. With a strong 
+          foundation in HTML, CSS, and JavaScript, I specialize in building responsive,
+           accessible, and high-performance websites and applications.
+
+          <br> <br>
+           My journey in web development started with a fascination for how things work 
+           behind the scenes, and over time, I've honed my skills in frameworks like React,
+            Vue, and Angular, as well as tools like SASS and Webpack. I enjoy turning 
+            complex design concepts into interactive and intuitive web pages that are both >
+             visually appealing and functional.
+          <br> <br>
+          I'm always eager to learn new technologies and improve my skills. Collaboration 
+          is key in my process, and I thrive in team environments where innovation and 
+          creativity are encouraged. I'm committed to building not just beautiful websites 
+          but also applications that are optimized, fast, and scalable.</p>
+    </div>
+  </div>
+  <!-- Code For ProjectBox -->
+  <div id="footer">
+    <!-- Code For Address -->
+    <div id="place">
+      <h3>Place</h3>
+      <p>Place : Delhi (India)</p>
+      <h3>GitHub</h3>
+      <a id="githu" href="https://www.linkedin.com/in/anand-gupta-b271a3294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Click hera for Link-Rishu Gupta</a>
+      <h3>My Resume</h3>
+      <a id="githu" href="file:///E:/Web%20Developer/resume/anand.pdf">file:///E:/Web%20Developer/resume/anand.pdf</a>
+    </div>
+     <!-- Code For Number And Email-->
+    <div id="contact">
+        <h3>Contact Us</h3>
+        <p>Mob.: +91 9319457062</p>
+        <p>   +91 8009618430</p>
+        <h3>Email Id:</h3>
+        <p>Mob.: +91 9319457062</p>
+
+    </div>
+     <!-- Code For Skills -->
+    <div id="aboutUs">
+        <h3>About Us</h3>
+        <p>Frontend Developer</p>
+        <p>Backend Developer</p>
+        <p>Full Stack Developer</p>
+    </div>
+  </div>
+ </div>
+ <!-- Java Script Code -->
+ <script src="script.js">
+   
+ </script>
+</body>
+</html>

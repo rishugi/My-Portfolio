@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+
+/* Left-right margin */
+.marging_box{ 
+    width: 100%;
+    height: 100%;
+    padding:  0 5%;
+}
+
+/* Body Color */
+body{
+    background-color: #8a72e2;
+}
+
+/* Navbar Decoration---- */
+.navBar{
+    height: 10vh;
+    width: 90vw;
+    background: radial-gradient(circle, rgba(29,107,120,1) 0%, rgba(227,49,235,1) 100%);
+    border-radius: 10px;
+    box-shadow: 0px 5px 4px 5px  #05789b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+    margin-top: 10vh;
+    position: fixed ;
+    top: -8%;
+    
+}
+/* Logo Decoration---- */
+#logo{
+    margin-left: 20px;
+   
+}
+ #logo p {
+    color: #edecf0;
+    background-color: #5c0446;
+    font-size: 2rem;
+    font-family: "Dancing Script", serif;
+    padding: 3px 20px;
+    border-radius: 50px;
+    animation: lg 1s infinite;
+    border-radius: 20px;
+    
+   
+    
+}
+
+
+/* Logo blink  Decoration---- */
+@keyframes lg{
+    0% {
+        box-shadow: 0px 1px 1px 1px  #c90557; 
+        text-shadow: 2px 2px 2px  #463f43;
+    }50%{
+        box-shadow: 0px 3px 3px 3px  #da118c;
+        
+    }
+
+}
+
+/* Navbar Home-Contact Decoration---- */
+#option{
+    height: auto;
+    width: 30vw;
+}
+
+ul {
+    
+    
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none; 
+}
+a{
+    text-decoration: none;
+    color: rgb(246, 246, 250);
+    font-size: 1rem;
+}
+a:hover{
+    text-decoration: none;
+    color: rgb(4, 4, 5);
+    font-size: 1.2rem;
+}
+/* Join  Decoration---- */
+#joinbtn {
+    font-size: 1.8rem;
+    color: #111213;
+    font-weight: 600;
+    text-shadow: 3px 3px 3px  #f0eded;
+    animation: joi 1s infinite;
+    border-radius: 20px;
+    padding: 3px;
+    cursor: pointer;
+    
+}
+
+
+/* Join blink  Decoration---- */
+@keyframes joi{
+    0% {
+        box-shadow: 0px 3px 3px 3px  #c90557; 
+        text-shadow: 3px 3px 3px  #463f43;
+    }50%{
+        box-shadow: 0px 3px 3px 3px  #da118c;
+        
+    }
+}
+#join a:hover {
+    font-size: 2rem;
+    color: #f5f1f3;
+    font-weight: 600;
+    text-shadow: 3px 3px 3px  #050505;
+}
+
+
+/* Main Box Welcome And Photo  Decoration---- */
+#home_box{
+   border: 2px solid red;
+   width: 100%;
+   height: 80vh;
+   padding-left: 10vh;
+   margin-top: 15vh;
+   display: flex;
+   align-items: center;
+   border-radius: 10px;
+   box-shadow: 5px 5px 5px  #1f1d1e  ;
+   background: radial-gradient(circle, rgba(45,207,205,1) 0%, rgba(151,68,245,1) 100%);
+  
+}
+#joinNow{
+    border: 2px solid red;
+    width: 100%;
+    height: 80vh;
+    margin-top: 15vh;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px  #1f1d1e  ;
+    background: radial-gradient(circle, rgba(45,207,205,1) 0%, rgba(151,68,245,1) 100%);
+    
+ }
+ #form{
+    height: 70vh;
+    width: 28%;
+    background-color: rgba(151,68,245,0.5);
+    box-shadow: 2px 2px 2px  #1f1d1e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;  
+ }
+ #joinHeading{
+    padding-bottom : 10px;
+    text-align: center;
+    color: rgb(173, 9, 9);
+    font-size: 1.5rem;
+    font-weight: 600;
+ }
+ #form ul{
+    
+    display: table-row;
+    align-items:center;
+    justify-content:center ;
+ }
+#form input {
+    width: 20vw ;
+    height: 6vh;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+ }
+ #form button {
+    width: 70% ;
+    height: 7vh;
+    margin-top: 5vh;
+    border-radius: 20px;
+    background-color: #ac1887;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3cqw; 
+}
+#form button:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+
+/* Welcome Kit Decoration---- */
+#portfolio{
+   position: relative;
+  bottom: 18vh;
+  right: 20vw;
+  margin-left: 10px;
+}
+h2:hover{
+    color: #fff;
+}
+#wel:hover{
+    color: #f4fcfd;
+}
+
+#wel_kit{
+    text-align: center;
+    height: 100%;
+    width: 50%;
+    padding:  20vh 10px ;
+   
+}
+#hi{
+    font-size: 2rem;
+}
+#hi:hover{
+    font-size: 2rem;
+}
+#wel{
+    font-size: 3rem;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    color: #300483;
+    border-bottom: 2px solid #fff;
+    animation: blink 1s infinite;
+    
+    
+}
+
+/* Welcome Blinking Decoration---- */
+@keyframes blink{
+    0% {
+        text-shadow: 3px 3px 3px  #f0eded; 
+        font-size: 3.05rem;
+    }50%{
+        text-shadow: 3px 3px 3px  #da118c;
+        font-size: 3.05rem;
+    }
+}
+
+
+/* Photo Decoration---- */
+#photo{
+    background-image: url(rishupic-removebg-preview.png);
+    height: 85%;
+    width: 30%;
+    border-top: 20px solid #3d3f3b;
+    border-left: 20px solid #b30baa;
+    border-right: 20px solid #4101a7;
+    border-bottom: 20px solid #e60b1d;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 10vw;
+    box-shadow: 0px 5px 15px 15px  #22b4f8  ;
+}
+#photo:hover{
+    height: 90%;
+    width: 32%;
+    border: 20px solid #f9fcf7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    margin-left: 10vw;
+    box-shadow: 5px 10px 10px 10px  #1b1b1b  ;
+}
+#about{
+    border: 2px solid red;
+    width: 100%;
+    height: 100vh;
+    padding-left: 10vh;
+    margin-top: 5vh;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px  #1f1d1e  ;
+}
+#project_gallery{
+    border: 2px solid red;
+    width: 100%;
+    height: 100vh;
+    padding-left: 10vh;
+    margin-top: 5vh;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px  #1f1d1e  ;
+    overflow: scroll;
+   
+}
+#heading{
+    font-size: 2rem;
+    color: rgb(54, 4, 146);
+    text-decoration: underline;
+    text-shadow: 1px 1px 1px  #f1e2eb;
+    margin-bottom: 2vh;
+}
+#heading:hover{
+    font-size: 2.2rem;
+    color: rgb(8, 8, 8);
+    text-decoration: underline;
+    text-shadow: 3px 3px 3px  #f1e2eb;
+}
+.cart{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-left: 15vh;
+}
+.cart a {
+    height:240px;
+    width: 420px;
+    background-image: url(rishupic-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    border: 5px solid #020202;
+}
+.cart a:hover{
+    height: 260px;
+    width: 460px;
+}
+#cart1{
+    background-image: url(amazoneClone.png);
+}
+#cart2{
+    background-image: url(LogineDisplay.png);
+}
+#cart3{
+    background-image: url(cricketGame.png);
+}
+#cart4{
+    background-image: url(calulator.png);
+}
+#footer{
+    border: 2px solid red;
+    width: 100%;
+    height: 30vh;
+    padding-left: 10vh;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px  #1f1d1e  ;
+    
+}
+
+
+h3:hover{
+    font-weight: 500;
+    color: #fff;
+}
+p:hover{
+    font-weight: 500;
+    color: #fff;
+}
+#githu{
+    font-size: 15px;
+    color: #080808;
+}
+
+#githu:hover{
+    
+    color: #fcf6f6;
+}
+ /* after successfully joinig box decoration */
+#msgSuccess{
+    border: 2px solid red;
+    width: 100%;
+    height: 80vh;
+    margin-top: 15vh;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px  #1f1d1e  ;
+    background: radial-gradient(circle, rgba(45,207,205,1) 0%, rgba(151,68,245,1) 100%);
+    
+ }
+ #msgSuccess h1{
+    color: #db0b50;
+    font-size: 60px;
+ } 
+
+ #msgSuccess h3{
+    color: #ffffff;
+    font-size: 50px;
+    text-shadow: 2px 2px 2px #020202;
+ }
